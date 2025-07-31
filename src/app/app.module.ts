@@ -8,14 +8,14 @@ import { ExaminationTimelineComponent } from './components/examination-timeline/
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
     PatientInfoComponent,
     RegionFilterComponent,
     BodyVisualizationComponent,
     ExaminationTimelineComponent
-  ],
-  imports: [
-    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
