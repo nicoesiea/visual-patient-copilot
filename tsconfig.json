@@ -1,15 +1,13 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
+    "outDir": "./out-tsc/app",
     "sourceMap": true,
     "declaration": false,
-    "downlevelIteration": true,
-    "experimentalDecorators": true,
     "module": "esnext",
     "moduleResolution": "node",
-    "importHelpers": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "target": "es2015",
     "typeRoots": [
       "node_modules/@types"
@@ -19,9 +17,9 @@
       "dom"
     ]
   },
-  "angularCompilerOptions": {
-    "enableIvy": false,
-    "fullTemplateTypeCheck": true,
-    "strictInjectionParameters": true
-  }
+  "exclude": [
+    "node_modules",
+    "out-tsc",
+    "**/*.spec.ts"
+  ]
 }
