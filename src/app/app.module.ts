@@ -1,10 +1,10 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent } from './app.component';
-import { PatientInfoComponent } from './components/patient-info/patient-info.component';
-import { RegionFilterComponent } from './components/region-filter/region-filter.component';
-import { BodyVisualizationComponent } from './components/body-visualization/body-visualization.component';
-import { ExaminationTimelineComponent } from './components/examination-timeline/examination-timeline.component';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
+import { AppComponent } from "./app.component";
+import { PatientInfoComponent } from "./components/patient-info/patient-info.component";
+import { RegionFilterComponent } from "./components/region-filter/region-filter.component";
+import { BodyVisualizationComponent } from "./components/body-visualization/body-visualization.component";
+import { ExaminationTimelineComponent } from "./components/examination-timeline/examination-timeline.component";
 
 @NgModule({
   declarations: [AppComponent],
@@ -13,9 +13,9 @@ import { ExaminationTimelineComponent } from './components/examination-timeline/
     PatientInfoComponent,
     RegionFilterComponent,
     BodyVisualizationComponent,
-    ExaminationTimelineComponent
+    ExaminationTimelineComponent,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
