@@ -7,9 +7,7 @@ import { BodyVisualizationComponent } from './components/body-visualization/body
 import { ExaminationTimelineComponent } from './components/examination-timeline/examination-timeline.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     PatientInfoComponent,

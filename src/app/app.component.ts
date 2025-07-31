@@ -8,7 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'visual-patient-copilot';
 
-  constructor() {}
+  constructor() {
+    console.log('AppComponent loaded');
+  }
 
   // Add methods to handle events and manage component state here
   handleClick() {
