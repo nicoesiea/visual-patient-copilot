@@ -1,1 +1,23 @@
-/* This file is intentionally left blank. */
+.visual-patient-layout {
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  width: 320px;
+  min-width: 250px;
+  background: #f7f7f7;
+  padding: 1rem;
+  box-shadow: 2px 0 8px #0001;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background: #fff;
+  overflow-y: auto;
+}
