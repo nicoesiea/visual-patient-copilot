@@ -11,4 +11,8 @@ export class AppComponent {
   constructor() {}
 
   // Add methods to handle events and manage component state here
+  handleClick() {
+    // Ajoutez ici le comportement souhaité
+    alert('Get Started clicked!');
+  }
 }
